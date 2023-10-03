@@ -1,5 +1,5 @@
 img {
-    float: right;
+    float: center;
     margin-left: 18px;
 }
 
@@ -50,5 +50,3 @@ p {
 ul {
     list-style-type: disc;
 }
-
-/* Add any other specific Wikipedia-inspired styles you may have */
