@@ -1,18 +1,17 @@
-/* img {
+img {
     float: right;
     margin-left: 18px;
-} */
+}
 
-/* table, th, td {
+table, th, td {
     padding: 10px;
     border: 1px solid black;
     border-collapse: collapse;
-} */
+}
 
 * {
     font-family: Arial, sans-serif;
 }
-
 
 .center {
     display: block;
@@ -28,3 +27,28 @@ hr.solid {
 a:hover {
     color: darkorange;
 }
+
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* Add any other specific Wikipedia-inspired styles you may have */
