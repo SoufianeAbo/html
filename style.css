@@ -1,0 +1,30 @@
+/* img {
+    float: right;
+    margin-left: 18px;
+} */
+
+/* table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+a:hover {
+    color: darkorange;
+}
