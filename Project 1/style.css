@@ -9,3 +9,7 @@ body {
     margin-right: auto;
     font-family: Arial, sans-serif;
 }
+
+a:hover {
+    color: darkorange;
+}
