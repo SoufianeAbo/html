@@ -50,3 +50,12 @@ p {
 ul {
     list-style-type: disc;
 }
+
+#stickyweb {
+    margin: auto;
+    position: fixed;
+    left: 80%;
+    right: 50%;
+    width: 200px;
+    background-color: white;
+}
