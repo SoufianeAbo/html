@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Corporative Sans Rounded Regular;
+    src: url("../fonts/CorporativeSansRd-Regular.woff2") format('woff2');
+}
+
+body {
+    background-image: linear-gradient(
+        45deg,
+        hsl(241deg 79% 66%) 8%,
+        hsl(219deg 93% 58%) 37%,
+        hsl(208deg 100% 49%) 50%,
+        hsl(204deg 100% 49%) 61%,
+        hsl(200deg 100% 48%) 70%,
+        hsl(196deg 100% 47%) 79%,
+        hsl(192deg 100% 45%) 89%,
+        hsl(190deg 73% 52%) 100%
+      );
+
+      font-family: Corporative Sans Rounded Regular;
+}
+
+html {
+    height: 100%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px 0;
+    margin: 30px;  
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+li:first-child {
+    display: inline;
+    padding-right: 600px;
+}
