@@ -6,14 +6,16 @@
 body {
     background-image: linear-gradient(
         45deg,
-        hsl(241deg 79% 66%) 8%,
-        hsl(219deg 93% 58%) 37%,
-        hsl(208deg 100% 49%) 50%,
-        hsl(204deg 100% 49%) 61%,
-        hsl(200deg 100% 48%) 70%,
-        hsl(196deg 100% 47%) 79%,
-        hsl(192deg 100% 45%) 89%,
-        hsl(190deg 73% 52%) 100%
+        hsl(241deg 83% 66%) 0%,
+        hsl(222deg 94% 60%) 49%,
+        hsl(210deg 100% 50%) 63%,
+        hsl(207deg 100% 50%) 70%,
+        hsl(204deg 100% 50%) 74%,
+        hsl(201deg 100% 49%) 77%,
+        hsl(198deg 100% 48%) 79%,
+        hsl(194deg 100% 46%) 82%,
+        hsl(191deg 100% 45%) 88%,
+        hsl(189deg 73% 51%) 100%
       );
 
       font-family: Corporative Sans Rounded Regular;
@@ -23,25 +25,39 @@ html {
     height: 100%;
 }
 
-header a {
+* {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-ul {
+.navbar {
     display: flex;
     justify-content: space-around; 
     padding: 10px 0;
-    margin: 30px;  
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
 }
 
-li {
+.navbar li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
-li:first-child {
+.navbar li:first-child {
     display: inline;
-    padding-right: 600px;
+    padding-right: 400px;
+}
+
+.navbar button {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    padding: 6px 20px;
+}
+
+.navbar button:hover {
+    cursor: pointer;
 }
