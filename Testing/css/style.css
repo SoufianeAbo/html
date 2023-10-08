@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+}
+
+:root {
+    --bg-color: black;
+    --text-color: white;
+    --selection-color: #cccccc;
+    --body-color: #F7F5F2;
+    --pg-color: #2E2D2C;
+    --box-color: #F1F1F1;
+    --belowheader-img: url("../img/coffeehouse.jpg");
+    --shadow-color: #DAD8D5;
+    --boxsel-color: #616161;
+}
+
+.navbar {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px 150px;
+}
+
+.navbar a:hover {
+    background-color: var(--selection-color);
+    color: var(--bg-color);
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+.belowHeader {
+    display: flex;
+    justify-content: center;
+    background-image: var(--belowheader-img);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.belowHeader h1 {
+    font-size: 80px;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 140px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+
+.belowLogo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px !important;
+    gap: 1200px;
+}
+
+.belowLogo p:first-child {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    padding: 5px;
+}
+
+.belowLogo p {
+    color: var(--text-color);
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph h1 {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.paragraph p {
+    font-size: 20px;
+    width: 800px;
+    white-space: auto;
+    text-wrap: wrap;
+    margin-bottom: 30px;
+    color: var(--pg-color);
+}
+
+.paragraph strong {
+    font-size: 20px;
+}
+
+.box {
+    background-color: var(--box-color);
+    border-left: 7px solid var(--selection-color);
+}
+
+.box p {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.box p:first-child {
+    font-style: italic;
+}
+
+.paragraph img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 14px 5px rgba(190,190,190,1);
+    -webkit-box-shadow: 0px 0px 14px 5px rgba(190,190,190,1);
+    -moz-box-shadow: 0px 0px 14px 5px rgba(190,190,190,1);
+}
+
+.buttonMenu {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid var(--shadow-color);
+    width: 800px;
+}
+
+.buttonMenu a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--pg-color);
+    padding: 0px 150px;
+}
+
+.buttonMenu a:hover {
+    background-color: var(--boxsel-color);
+    color: var(--body-color);
+}
