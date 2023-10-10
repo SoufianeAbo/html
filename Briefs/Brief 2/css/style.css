@@ -112,6 +112,18 @@ h1 {
     height: 2000px;
 }
 
+#reverse {
+    flex-direction: row-reverse;
+}
+
+#reverse h1 {
+    width: 500px;
+}
+
+#aboutUsPage {
+    height: 3100px;
+}
+
 .aboutUs {
     display: flex;
     justify-content: space-around;
