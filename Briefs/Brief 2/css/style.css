@@ -10,6 +10,7 @@ html, body {
     --bg-color: rgb(0, 0, 0);
     --text-color: white;
     --wb-color: #f2c94c;
+    --wb-color2: rgba(242, 201, 76, 0.20);
 }
 
 .navbar {   
@@ -108,16 +109,76 @@ h1 {
     z-index: 2;
 }
 
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery img {
+    width: 1271px;
+}
+
+.delivery p {
+    text-align: center;
+    width: 1277px;
+    line-height: 40px;
+    letter-spacing: 2.25px;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+strong {
+    color: var(--wb-color);
+    font-size: 50px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4.5px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 30px;
+    width: 770px;
+    border: 3px solid var(--wb-color);
+    border-radius: 30px;
+    background-color: var(--wb-color2);
+    padding: 20px;
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: var(--wb-color);
+    width: 820px;
+    cursor: pointer;
+}
+
+#contact {
+    height: 3200px;
+}
+
 #menu {
     height: 2000px;
 }
 
 #reverse {
     flex-direction: row-reverse;
+    text-align: right;
 }
 
 #reverse h1 {
     width: 500px;
+    text-align: right;
 }
 
 #aboutUsPage {
@@ -265,23 +326,10 @@ footer p {
     justify-content: center;
 }
 
-.socialMedia img:first-child {
+.socialMedia img {
     width: 97px;
     height: 95px;
     margin-top: 0;
-}
-
-.socialMedia img:nth-child(2) {
-    width: 62px;
-    height: 74px;
-    margin-top: 4px;
-}
-
-.socialMedia img:last-child {
-    width: 75px;
-    height: 60px;
-    margin-top: 10px;
-    margin-left: 18px;
 }
 
 .copyright {
