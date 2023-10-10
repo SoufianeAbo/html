@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+:root {
+    --bg-color: rgb(0, 0, 0);
+    --text-color: white;
+    --wb-color: #f2c94c;
+}
+
+.navbar {   
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    align-items: center;
+}
+
+p, a {
+    font-family: 'Ruda', sans-serif;
+}
+
+.navbar p:first-child {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    line-height: 0.1px;
+    width: 174px;
+    padding-right: 500px;
+}
+
+.navbar p {
+    width: 131px;
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+hr {
+    border-bottom: 9px solid var(--wb-color);
+    width: 482px;
+}
+
+.belowHeader {
+    width: 100%;
+    position: absolute;
+    height: 944px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
+                                            rgba(39.31, 39.31, 39.31, 0.1) 0.01%,
+                                            rgba(0, 0, 0, 0.13) 13.02%,
+                                            rgb(0, 0, 0) 100%), 
+                                            url("../img/wood.png");
+    background-size: cover;
+}
+
+.belowHeader img {
+    width: 100%;
+    height: 1048px;
+    margin-top: 95px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.2px;
+    margin-top: 206px;
+    color: var(--text-color);
+}
+
+.belowHeader p {
+    width: 745px;
+    font-weight: 400;
+    color: var(--text-color);
+    letter-spacing: 2.25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bodyPanel {
+    background-color: var(--bg-color);
+    overflow: hidden;
+    top: 100%;
+    position: relative;
+    height: 2848px;
+    z-index: 2;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUs h1 {
+    width: 474px;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.aboutUs hr {
+    width: 474px;
+    border-bottom: 9px solid var(--wb-color);
+}
+
+.aboutUs p, .aboutUs a {
+    width: 474px;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2.25px;
+    line-height: 40px;
+    color: var(--text-color);
+}
+
+.aboutUs a {
+    color: var(--wb-color);
+    padding: 5px;
+    border: 2px solid var(--wb-color);
+    border-radius: 2px;
+}
+
+.aboutUs div:last-child {
+    margin-top: 206px;
+}
+
+#findusHeader {
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+.findUs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.findUs p, #preparationP {
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 40px;
+    letter-spacing: 2.25px;
+}
+
+.findUs p {
+    width: 600px;
+}
+
+#preparationP {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.preparationPics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    top: 100%;
+    background-image: url("../img/wood.png");
+    background-size: cover;
+}
+
+footer img {
+    position: relative;
+    height: 1048px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -500px;
+}
+
+footer p {
+    width: 928px;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0;
+    position: relative;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia img:first-child {
+    width: 97px;
+    height: 95px;
+    margin-top: 0;
+}
+
+.socialMedia img:nth-child(2) {
+    width: 62px;
+    height: 74px;
+    margin-top: 4px;
+}
+
+.socialMedia img:last-child {
+    width: 75px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.copyright {
+    position: absolute;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.copyright p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
