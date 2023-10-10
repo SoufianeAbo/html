@@ -68,7 +68,7 @@ hr {
                                             rgba(39.31, 39.31, 39.31, 0.1) 0.01%,
                                             rgba(0, 0, 0, 0.13) 13.02%,
                                             rgb(0, 0, 0) 100%), 
-                                            url("/img/wood.png");
+                                            url("../img/wood.png");
     background-size: cover;
 }
 
@@ -298,7 +298,7 @@ footer {
     width: 100%;
     position: relative;
     top: 100%;
-    background-image: url("/img/wood.png");
+    background-image: url("../img/wood.png");
     background-size: cover;
 }
 
